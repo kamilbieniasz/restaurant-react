@@ -1,0 +1,47 @@
+.about-us{
+    width:100vw;
+    min-height:92vh;
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+
+    .about-us__title{
+        font-size:3em;
+        margin:10px 0;
+    }
+
+    .about-us__content-container{
+        width:100vw;
+        min-height:70vh;
+        display:flex;
+        justify-content: space-around;
+        align-items: center;
+
+        .about-us__image{
+            width:30vw;
+            height:70vh;
+            background-image: url("../../assets/images/chef.jpg");
+            background-size: cover;
+            -webkit-box-shadow: 0px 0px 15px 0px #000000; 
+            box-shadow: 0px 0px 15px 0px #000000;
+        }
+        .about-us__content{
+            width:30vw;
+            height:70vh;
+            background-color:black;
+            -webkit-box-shadow: 0px 0px 15px 0px #000000; 
+            box-shadow: 0px 0px 15px 0px #000000;
+            color:white;
+
+            .about-us__content-title{
+                text-align: center;
+                font-size: 2em;
+            }
+            .about-us__content-description{
+                padding:0 25px;
+                font-size:20px;
+            }
+        }
+    }
+}

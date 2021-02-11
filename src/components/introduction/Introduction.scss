@@ -1,0 +1,19 @@
+.introduction{
+    width:100vw;
+    height:100vh;
+    background: linear-gradient( rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3) ), url("../../assets/images/first.jpg");
+    background-blend-mode: darken;
+    background-size: cover;
+    position: relative;
+
+    .introduction__title{
+        position:absolute;
+        top:10vh;
+        left:50%;
+        transform: translateX(-50%);
+        font-size:14em;
+        color:white;
+        user-select: none;
+        font-family: -apple-system;
+    }
+}

@@ -1,0 +1,23 @@
+.food{
+    border:1px solid white;
+    height: 250px;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    user-select: none;
+    //background-image: url(../../../assets/images/pizza.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    cursor: pointer;
+    transition: transform .2s ease-in-out;
+
+    &:hover{
+        transform:scale(1.1);
+        transition: transform .2s ease-in-out;
+    }
+
+    .food__name{
+        color:white;
+        font-size:2em;
+    }
+}

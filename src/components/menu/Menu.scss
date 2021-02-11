@@ -1,0 +1,38 @@
+.menu{
+    width:100vw;
+    height:92vh;
+    background-color: #1D1E1F;
+    display:flex;
+    flex-direction: column;
+    justify-content: space-around;
+    
+    .menu__title{
+        font-size:3em;
+        text-align: center;
+        color:white;
+    }
+
+    .menu__content{
+        display:grid;
+        grid-template-columns: repeat(4, 250px);
+        grid-gap:30px;
+        justify-content: center;
+
+        .menu__box{
+            border:1px solid white;
+            height: 250px;
+            display:flex;
+            justify-content: center;
+            align-items: center;
+            user-select: none;
+            background-size: cover;
+            background-repeat: no-repeat;
+
+            .menu__box-title{
+                font-size: 2em;
+                color:white;
+            }
+        }
+    
+    }
+}
