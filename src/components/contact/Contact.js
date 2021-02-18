@@ -26,7 +26,7 @@ class Contact extends Component {
         };
         render(){
         return (
-            <section className="contact">
+            <section className="contact" id="contact">
                 <h1 className="contact__title">Kontakt</h1>
                 <div className="contact__content-container">
                     <h2 className="contact__content">Ristorante</h2>

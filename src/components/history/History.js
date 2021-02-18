@@ -3,7 +3,7 @@ import "./History.scss";
 
 function History(props) {
     return (
-        <section className="history">
+        <section className="history" id="history">
             <h1 className="history__title">Nasza historia</h1>
             <div className="history__content-container">
                 <span className="history__image"></span>

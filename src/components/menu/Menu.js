@@ -33,20 +33,10 @@ class Menu extends Component {
     
     render() {
             return (
-                <section className="menu">
+                <section className="menu" id="menu">
                     <h1 className="menu__title">Menu</h1>
                     <div className="menu__content">
                         {!this.state.isLoading ? this.renderFoodTypes() : <em>Loading...</em>}
-
-                        {/* <Food backgroundDarken="linear-gradient( rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3) )" backgroundURL="xD" name="pizza"></Food> */}
-                {/* <span className="menu__box"><h2 className="menu__box-title">Pizza</h2></span>
-                <span className="menu__box"><h2 className="menu__box-title">Hamburgery</h2></span>
-                <span className="menu__box"><h2 className="menu__box-title">Nuggetsy</h2></span>
-                <span className="menu__box"><h2 className="menu__box-title">Przekąski</h2></span>
-                <span className="menu__box"><h2 className="menu__box-title">Dania obiadowe</h2></span>
-                <span className="menu__box"><h2 className="menu__box-title">Zupy</h2></span>
-                <span className="menu__box"><h2 className="menu__box-title">Sałatki</h2></span>
-                <span className="menu__box"><h2 className="menu__box-title">Desery</h2></span> */}
                     </div>
                 </section>
             );
