@@ -1,15 +1,21 @@
 .navbar{
     width:100vw;
     height:8vh;
-    -webkit-box-shadow: 0px 0px 20px 3px rgba(0,0,0,0.63);
-    box-shadow: 0px 0px 20px 3px rgba(0,0,0,0.63);
-    background-color:white;
+    -webkit-box-shadow: 0px 0px 20px 3px rgba(203,146,28,0.63);
+    box-shadow: 0px 0px 20px 3px rgba(203,146,28,0.63);
+    background-color:#1D1E1F;
+    color:white;
     display:flex;
     justify-content: space-between;
     position:fixed;
     z-index: 999;
     margin:0;
     padding:0;
+
+    .navbar__link{
+        text-decoration: none;
+        color:white;
+    }
 
     .navbar__title{
         padding:0 20px;
@@ -40,22 +46,23 @@
             &:hover{
                 transform:scale(1.2);
             }
-            &:nth-child(4){
+            &:nth-child(5){
                 margin-right: 50px;
             }
-            &:nth-child(5):hover .navbar__twitter{
+            &:nth-child(6):hover .navbar__twitter{
                 color:#1DA1F2;
             }
         
-            &:nth-child(6):hover .navbar__facebook{
+            &:nth-child(7):hover .navbar__facebook{
                 color:#3b5998;
             }
-            &:nth-child(7):hover .navbar__instagram{
+            &:nth-child(8):hover .navbar__instagram{
                 background: radial-gradient(circle at 30% 107%, #fdf497 0%, #fdf497 5%, #fd5949 45%,#d6249f 60%,#285AEB 90%);
                 background-clip: text;
                 -webkit-background-clip:text;
                 color:transparent;
             }
+            
         }
     }
 }
