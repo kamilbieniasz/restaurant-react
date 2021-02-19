@@ -1,3 +1,3 @@
 # Getting Started with Create React App
 
-ristoraner.netlify.app
+www.ristoraner.netlify.app
