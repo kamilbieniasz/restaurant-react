@@ -1,3 +1,3 @@
-# Getting Started with Create React App
+# Prace w trakcie
 
 www.ristoraner.netlify.app
