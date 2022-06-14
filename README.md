@@ -1,3 +1,3 @@
 # W trakcie prac
 
-www.ristoraner.netlify.app
+ristorante-kb.netlify.app
